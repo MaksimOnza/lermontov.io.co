@@ -1,1 +1,504 @@
-<html>Hello</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>Natural honey - MaksVovk</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/font-awesome.css" rel="stylesheet"> -->
+    <link href="assets/js/fancybox/jquery.fancybox.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+	<!--========================================================-->
+	<!--Модальное окно-->
+	<!--========================================================-->
+	<link rel="stylesheet" type="text/css" href="assets/css/winmodal.css" />
+	
+<!--========================================================-->
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
+	
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#theMenu">
+  
+  <!--Modal plagin-->
+  <!--=================================-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Название модали</h4>
+      </div>
+      <div class="modal-body1">
+        <div class="modal-body2">
+			<div class="col1">left column
+				<img src="assets/img/portfolio/med_small.jpg" style="float: left; margin: 5px 0 5px 10px;width: 100%;" />
+			</div>
+			<div class="col2">center column</div>
+			<div class="clear"></div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <button type="button" class="btn btn-primary">В корзину</button>
+      </div>
+    </div>
+  </div>
+</div>		
+	<div id="popup_name2" class="popup_block">
+	<h2>Модальное окно - 700px</h2>
+		<div class="modal-body1">
+			<div class="modal-body2">
+				<div class="col1">left column
+					<img src="assets/img/portfolio/propolis.jpg" style="float: right; margin: 5px 0 5px 10px;" />
+				</div>
+				<div class="col2">center column
+					<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+					<p style="text-align: right;"><a href="#" class="button72">в корзину23333333333333</a></p></div>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		
+	</div>
+  <!--End Modal plagin=================================-->
+	<!-- Menu -->
+	<nav class="menu" id="theMenu">
+		<div class="menu-wrap">
+			<h1 class="logotop"><a href="index.html#home">Natural honey</a></h1>
+			<i class="fa fa-times menu-close"></i>
+			<!--Ссылки в меню не работают с классом smoothScroll к которому они были отнесены "<a href="#portfolio" class="smoothScroll">Продукты пчеловодства</a>"-->
+			<a href="test.html" >Home</a>
+			<a href="#about" >О Нас</a>
+			<a href="#portfolio" >Продукты пчеловодства</a>
+			<a href="#services" >Популярное(Блог)</a>
+			<a href="#contact" >Contact</a>
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-dribbble"></i></a>
+			<a href="#?w=400" class="poplight"><i class="fa fa-envelope"></i></a>
+		</div>
+		
+		<!-- Menu button -->
+		<div id="menuToggle"><i class="fa fa-bars"></i></div>
+	</nav>
+
+	<section id="home" name="home"></section>
+	<div id="headerwrap" class="banner">
+		<div class="container">
+			<div class="row1">
+				<div class=" logo">
+					<a href="index.html"><i class="glyphicon glyphicon-leaf" aria-hidden="true"></i>Natural honey <span>For Nature Lovers||отобранный у пчел</span></a>
+				</div>
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/headerwrap -->
+	
+	<section id="about" name="about"></section>
+	<div id="aboutwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 name">
+					<img class="img-responsive" src="assets/img/pic.png">
+					<p>BEE HAPPY</p>
+					<div class="name-label"></div>
+				</div><! --/col-lg-4-->
+				<div class="col-lg-8 name-desc">
+					<h2 id="about">МАЛЕНКАЯ КОМАНДА ПЧЕЛОВОДОВ<br/> И НЕ ТОЛЬКО ПРЕДЛАГАЕТ ВАМ <br/>УСЛАСТИТЬ ЭТОТ ПРЕКРАСНЫЙ МИР</h2>
+					<!-- <div class="name-zig"></div> -->
+					
+					<div class="col-md-6">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+					<div class="col-md-6">
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+						<p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+					</div>
+					
+				</div><! --/col-lg-8-->
+		
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /aboutwrap -->
+	
+	<! -- ABOUT SEPARATOR -->
+	<div class="sep about" data-stellar-background-ratio="0.5"></div>
+	
+	<! -- PORTFOLIO SECTION -->
+	<section id="portfolio" name="portfolio"></section>
+	<div id="portfoliowrap">
+		<div class="container">
+			<div class="row">
+				<h1 id="portfolio">НАША ПРОДУКЦИЯ</h1>
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Мёд</h5>
+									<span>Основной продукт пчёл</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="btn btn-primary " href="#?w=700" data-toggle="modal" data-target="#myModal"><img class="img-responsive" src="assets/img/portfolio/med22.jpg" alt="МЕД"></a><!--========================================================-->
+								</div>
+								
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Прополис</h5>
+									<span>Пчелиный клей, который пчёлы собирают с весенних почек различных деревьев</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="poplight" rel="popup_name2" href="#?w=700"><img class="img-responsive" src="assets/img/portfolio/propolis.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Воск</h5>
+									<span>Выделяется пчелами специальными железами и испольуется в качестве основы при строение сот</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="poplight" rel="popup_name3" href="#?w=700"><img class="img-responsive" src="assets/img/portfolio/vosk.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+	
+			<div class="row mt">
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Перга</h5>
+									<span>Цветочная пыльца, которая собирается пчелами и улаживается ими в ячейки рамки улика</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="poplight" rel="popup_name4" href="#?w=700"><img class="img-responsive" src="assets/img/portfolio/perga.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overly"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Пыльца</h5>
+									<span>Цветочная пыльца, которая так и не попала в соты</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="poplight" rel="popup_name5" href="#?w=700"><img class="img-responsive" src="assets/img/portfolio/pylca.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+				
+				<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+					<div class="project-wrapper">
+	                    <div class="project">
+	                        <div class="photo-wrapper">
+								<div class="test"><p><h5>Соты</h5>
+									<span>...</span></p>
+								</div>
+	                            <div class="photo">
+	                            	<a class="poplight" rel="popup_name6" href="#?w=700"><img class="img-responsive" src="assets/img/portfolio/soty22.jpg" alt=""></a>
+	                            </div>
+	                            <div class="overlay"></div>
+	                        </div>
+	                    </div>
+	                </div>
+				</div><!-- col-lg-4 -->
+			</div><!-- /row -->
+		</div><! --/container -->
+		<div class="container">
+			<div class="row mt centered">
+				<h1>НАШ МЕДОВЫЙ ПРОЦЕСС</h1>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-handshake-o" ></i>
+					<h3>Установление контактов & договоренностей</h3>
+					<p>Любую нашу продукцию возможно бронировать или преобретать по наличию.</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-money"></i>
+					<h3>Оплата по договоренности</h3>
+					<p>Цена зависит как от приобретаемого количества так и от вида продукции.</p>
+				</div>
+				<div class="col-lg-4 proc">
+					<i class="fa fa-car"></i>
+					<h3>Доставка продукта</h3>
+					<p>На заранее оговоренный адрес высылаем за наш счет при общей стоимости от 20$, а также возможен самовывоз из г.Харьков.</p>
+				</div>
+				
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/Portfoliowrap -->
+
+	<! -- PORTFOLIO SEPARATOR -->
+	<div class="sep portfolio" data-stellar-background-ratio="0.5"></div>
+	
+	
+	<! -- SERVICE SECTION -->
+	<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1 id="services">НЕМНОГО О МЕДЕ</h1>
+					<h3>Что такое мед</h3>
+					<p>В каких случаях мед необходим и полезен</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-star"></i><p>СОСТАВ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-cloud"></i><p>КРИСТАЛЛИЗАЦИЯ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-shield"></i><p>ПРОТИВОПАКАЗАНИЯ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-heart"></i><p>ВЫБОР МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-trophy"></i><p>РЕЦЕПТЫ С МЕДОМ<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-globe"></i><p>РАЗНОВИДНОСТИ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-lock"></i><p>ПРОПОЛИС<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-thumbs-up"></i><p>ПЕРГА И ПЫЛЬЦА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+	
+	<div id="testimonials">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 mt">
+				
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active mb centered">
+					      <h3>MAIN BEE</h3>
+					      <p>Пчела отвечающая за качество меда всегда внимательна и беспристрастна. Так как от нее зависит участь всего улия/семьи вид у нее суровый.</p>
+					      <p><img class="img-circle" src="assets/img/bee3.jpg" width="80"></p>
+					    </div>
+
+					    <div class="item mb centered">
+					      <h3>ART BEE</h3>
+					      <p>Пчела отвечающая за разнообразие и состав меда, а также за комфорт собирателей меда.</p>
+					      <p><img class="img-circle" src="assets/img/bee2.jpg" width="80"></p>
+					    </div>
+
+					    <div class="item mb centered">
+					      <h3>WORK BEE</h3>
+					      <p>Костяк всего медового процесса. Собиратели ингридиентов для меда, благодаря ART BEE, всегда рады слетать еще за одной порцей. </p>
+					      <p><img class="img-circle" src="assets/img/bee1.jpg" width="80"></p>
+					    </div>
+
+					  </div>
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+					</div>
+					  
+				</div><! --/col-lg-8 -->
+			</div><! --/row -->
+		</div><! --/container -->
+	</div><! --/testimonials -->
+	
+	<! -- SERVICE SECTION -->
+	<section id="contact" name="contact"></section>
+	<! -- CONTACT SEPARATOR -->
+	<div class="sep contact" data-stellar-background-ratio="0.5"></div>
+	
+	<div id="contactwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<!-- <p id="contact"></p> -->
+					<!-- <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+					<p>
+						<small>5th Avenue, 987<br/>
+						38399, New York,<br/>
+						USA.</small>
+					</p>
+					<p>
+						<small>Tel. 9888-4394<br/>
+						Mail. Hello@coolfolks.com<br/>
+						Skype. NYCDesign
+					</p> -->
+					<div class="form-group">
+					    <label for="exampleInputName1">Your Name</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+					    
+					  </div>
+			
+				</div>
+				
+				<div class="col-lg-6">
+					<form role="form">
+					  <div class="form-group">
+					    <!-- <label for="exampleInputName1">Your Name</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+					    <label for="exampleInputEmail1">Email address</label>
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email"> -->
+					    <label for="exampleInputText1">Message</label>
+					    <textarea class="form-control" rows="3"></textarea>
+					  </div>
+					  <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+				</div>
+			
+			</div><! --/row -->
+		</div><!-- /container -->
+	</div>
+	<!--========================================================-->
+								<!--Модальное окно-->
+								<!--========================================================-->
+	<!--<div id="popup_name" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		 <div class="block_images">
+			<div class="block_in_modal">
+				<img src="assets/img/portfolio/med_small.jpg" style="float: left; margin: 5px 0 5px 10px;width: 100%;" />
+				
+				<a href="#" class="button7">купить</a><a href="#" class="button72">Купить</a>
+			</div>
+			<div class="block_in_modal"><img src="assets/img/portfolio/med_small.jpg" style="float: left; margin: 5px 100px 5px 10px; width: 100%;" />
+				<div><a href="#" class="button7">купить</a></div>
+			</div>
+		</div>
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="#" class="button72">в корзину</a></p> -->
+
+		
+	
+	
+	<div id="popup_name3" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		<img src="assets/img/portfolio/vosk.jpg" style="float: right; margin: 5px 0 5px 10px;" />
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="http://dbmast.ru">/shurawi/</a></p>
+	</div>
+	<div id="popup_name4" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		<img src="assets/img/portfolio/perga.jpg" style="float: right; margin: 5px 0 5px 10px;" />
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="http://dbmast.ru">/shurawi/</a></p>
+	</div>
+	<div id="popup_name5" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		<img src="assets/img/portfolio/pylca.jpg" style="float: right; margin: 5px 0 5px 10px;" />
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="http://dbmast.ru">/shurawi/</a></p>
+	</div>
+	<div id="popup_name6" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		<img src="assets/img/portfolio/soty22.jpg" style="float: right; margin: 5px 0 5px 10px;" />
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="http://dbmast.ru">/shurawi/</a></p>
+	</div>
+<!--========================================================-->
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="assets/js/classie.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/fancybox/jquery.fancybox.js"></script>    
+	<script src="assets/js/main.js"></script>
+	<!--========================================================-->
+	   <!--Модальное окно-->
+	   <!--========================================================-->
+
+ <script src="dm-modal.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <!--========================================================-->
+		<script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+		
+		<script type="text/javascript">
+      $(function() {
+        //    fancybox
+          jQuery(".fancybox").fancybox();
+      });
+	   </script>
+	   
+  </body>
+</html>

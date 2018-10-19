@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Модальнное окно с помощью CSS и jQuery</title>
+		<meta name="description" content="Пример работы модального окна разработанного с помощью CSS и jQuery" />
+		<meta name="keywords" content="modal window, overlay, модальное окно, css переходы, css анимация, эффект, CSS, jQuery" />
+		<meta name="author" content="Dobrovoimaster" />
+		<link rel="stylesheet" type="text/css" href="assets/css/demopage.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/winmodal.css" />
+</head>
+<body>
+<section id="services" name="services"></section>
+	<div id="servicewrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8-offset-2 centered">
+					<h1 id="services">НЕМНОГО О МЕДЕ</h1>
+					<h3>Что такое мед</h3>
+					<p>В каких случаях мед необходим и полезен</p>
+				</div><!-- /col-lg-8 -->
+			</div><! --/row -->
+			
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-star"></i><p>СОСТАВ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-cloud"></i><p>КРИСТАЛЛИЗАЦИЯ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-shield"></i><p>ПРОТИВОПАКАЗАНИЯ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-heart"></i><p>ВЫБОР МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			<div class="row mt">
+				<div class="col-lg-3 service">
+					<i class="fa fa-trophy"></i><p>РЕЦЕПТЫ С МЕДОМ<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-globe"></i><p>РАЗНОВИДНОСТИ МЕДА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-lock"></i><p>ПРОПОЛИС<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+				<div class="col-lg-3 service">
+					<i class="fa fa-thumbs-up"></i><p>ПЕРГА И ПЫЛЬЦА<br/><small>LOREM IPSUM DOLOR</small></p>
+					<p class="text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p>
+				</div>
+			</div><! --/row -->
+			
+		</div><! --/container -->
+	</div><! --/servicewrap -->
+		<div id="popup_name" class="popup_block">
+		<h2>Модальное окно - 700px</h2>
+		<div class="block_in_modal">
+			<img src="assets/img/portfolio/med_small.jpg" style="float: left; margin: 5px 0 5px 10px;" />
+			<p></p>
+			<a href="#" class="button7">кнопка</a>
+		</div>
+		<div class="block_in_modal"><img src="assets/img/portfolio/med_small.jpg" style="float: left; margin: 5px 5px 5px 10px;" /></div>
+		<p>Вы смотрите один из примеров создания модального окна с помощью CSS и jQuery. В данном примере показано окно шириной 400px. Для вывода других окон просто присваиваете имя новому окну, прописываете в атрибуте <strong>rel</strong>, типа <strong>popup1,2,3</strong> и т.д, и конечно не забываем про идентификатор id, соответственно выставляем такой же. Устанавливаете ширину окна в теге <code>&lt;a&gt;</code> и c чуством непомерной гордости за себя, любуетесь результатом.</p>
+		<p style="text-align: right;"><a href="http://dbmast.ru">/shurawi/</a></p>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="assets/js/dm-modal.js"></script>
+</body>
+</html>
